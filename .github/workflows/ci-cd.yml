@@ -66,7 +66,7 @@ jobs:
       with:
         name: state-pattern-package
         path: |
-          build/artifacts/state-pattern_1.0_amd64.deb
+          artifacts/state-pattern_1.0_amd64.deb
           build/Testing/**/*.xml
         if-no-files-found: error
         retention-days: 5
