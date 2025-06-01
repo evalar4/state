@@ -9,6 +9,8 @@ on:
 jobs:
   build-test-package:
     runs-on: ubuntu-latest
+    
+    steps:
 
     - name: Install dependencies
       run: |
