@@ -1,5 +1,5 @@
 CMakeFiles/state.dir/src/ForenoonState.cpp.o: \
- /home/user/evalar4/rk/state/src/ForenoonState.cpp \
+ /home/user/evalar4/state/src/ForenoonState.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -150,7 +150,7 @@ CMakeFiles/state.dir/src/ForenoonState.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/user/evalar4/rk/state/include/ForenoonState.h \
- /home/user/evalar4/rk/state/include/State.h \
- /home/user/evalar4/rk/state/include/Work.h \
- /home/user/evalar4/rk/state/include/NoonState.h
+ /home/user/evalar4/state/include/ForenoonState.h \
+ /home/user/evalar4/state/include/State.h \
+ /home/user/evalar4/state/include/Work.h \
+ /home/user/evalar4/state/include/NoonState.h

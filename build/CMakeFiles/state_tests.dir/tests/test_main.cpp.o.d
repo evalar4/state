@@ -1,7 +1,6 @@
 CMakeFiles/state_tests.dir/tests/test_main.cpp.o: \
- /home/user/evalar4/rk/state/tests/test_main.cpp \
- /usr/include/stdc-predef.h /usr/include/gtest/gtest.h \
- /usr/include/c++/13/cstddef \
+ /home/user/evalar4/state/tests/test_main.cpp /usr/include/stdc-predef.h \
+ /usr/include/gtest/gtest.h /usr/include/c++/13/cstddef \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

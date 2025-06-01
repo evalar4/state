@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/user/evalar4/rk/state/include
+CXX_INCLUDES = -I/home/user/evalar4/state/include
 
 CXX_FLAGS = -std=gnu++17 -DGTEST_HAS_PTHREAD=1
 

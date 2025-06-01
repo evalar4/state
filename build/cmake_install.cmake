@@ -1,4 +1,4 @@
-# Install script for directory: /home/user/evalar4/rk/state
+# Install script for directory: /home/user/evalar4/state
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,11 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/user/evalar4/rk/state/build/lib/libstate.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/user/evalar4/state/build/lib/libstate.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/state" TYPE DIRECTORY FILES "/home/user/evalar4/rk/state/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/state" TYPE DIRECTORY FILES "/home/user/evalar4/state/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -58,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/user/evalar4/rk/state/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/user/evalar4/state/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

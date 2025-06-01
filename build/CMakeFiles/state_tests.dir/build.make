@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/evalar4/rk/state
+CMAKE_SOURCE_DIR = /home/user/evalar4/state
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/evalar4/rk/state/build
+CMAKE_BINARY_DIR = /home/user/evalar4/state/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/state_tests.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/state_tests.dir/progress.make
 include CMakeFiles/state_tests.dir/flags.make
 
 CMakeFiles/state_tests.dir/tests/test_main.cpp.o: CMakeFiles/state_tests.dir/flags.make
-CMakeFiles/state_tests.dir/tests/test_main.cpp.o: /home/user/evalar4/rk/state/tests/test_main.cpp
+CMakeFiles/state_tests.dir/tests/test_main.cpp.o: /home/user/evalar4/state/tests/test_main.cpp
 CMakeFiles/state_tests.dir/tests/test_main.cpp.o: CMakeFiles/state_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/evalar4/rk/state/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/state_tests.dir/tests/test_main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_tests.dir/tests/test_main.cpp.o -MF CMakeFiles/state_tests.dir/tests/test_main.cpp.o.d -o CMakeFiles/state_tests.dir/tests/test_main.cpp.o -c /home/user/evalar4/rk/state/tests/test_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/evalar4/state/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/state_tests.dir/tests/test_main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_tests.dir/tests/test_main.cpp.o -MF CMakeFiles/state_tests.dir/tests/test_main.cpp.o.d -o CMakeFiles/state_tests.dir/tests/test_main.cpp.o -c /home/user/evalar4/state/tests/test_main.cpp
 
 CMakeFiles/state_tests.dir/tests/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/state_tests.dir/tests/test_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/evalar4/rk/state/tests/test_main.cpp > CMakeFiles/state_tests.dir/tests/test_main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/evalar4/state/tests/test_main.cpp > CMakeFiles/state_tests.dir/tests/test_main.cpp.i
 
 CMakeFiles/state_tests.dir/tests/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/state_tests.dir/tests/test_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/evalar4/rk/state/tests/test_main.cpp -o CMakeFiles/state_tests.dir/tests/test_main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/evalar4/state/tests/test_main.cpp -o CMakeFiles/state_tests.dir/tests/test_main.cpp.s
 
 CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.o: CMakeFiles/state_tests.dir/flags.make
-CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.o: /home/user/evalar4/rk/state/tests/test_forenoon.cpp
+CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.o: /home/user/evalar4/state/tests/test_forenoon.cpp
 CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.o: CMakeFiles/state_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/evalar4/rk/state/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.o -MF CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.o.d -o CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.o -c /home/user/evalar4/rk/state/tests/test_forenoon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/evalar4/state/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.o -MF CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.o.d -o CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.o -c /home/user/evalar4/state/tests/test_forenoon.cpp
 
 CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/evalar4/rk/state/tests/test_forenoon.cpp > CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/evalar4/state/tests/test_forenoon.cpp > CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.i
 
 CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/evalar4/rk/state/tests/test_forenoon.cpp -o CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/evalar4/state/tests/test_forenoon.cpp -o CMakeFiles/state_tests.dir/tests/test_forenoon.cpp.s
 
 CMakeFiles/state_tests.dir/tests/test_noon.cpp.o: CMakeFiles/state_tests.dir/flags.make
-CMakeFiles/state_tests.dir/tests/test_noon.cpp.o: /home/user/evalar4/rk/state/tests/test_noon.cpp
+CMakeFiles/state_tests.dir/tests/test_noon.cpp.o: /home/user/evalar4/state/tests/test_noon.cpp
 CMakeFiles/state_tests.dir/tests/test_noon.cpp.o: CMakeFiles/state_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/evalar4/rk/state/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/state_tests.dir/tests/test_noon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_tests.dir/tests/test_noon.cpp.o -MF CMakeFiles/state_tests.dir/tests/test_noon.cpp.o.d -o CMakeFiles/state_tests.dir/tests/test_noon.cpp.o -c /home/user/evalar4/rk/state/tests/test_noon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/evalar4/state/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/state_tests.dir/tests/test_noon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_tests.dir/tests/test_noon.cpp.o -MF CMakeFiles/state_tests.dir/tests/test_noon.cpp.o.d -o CMakeFiles/state_tests.dir/tests/test_noon.cpp.o -c /home/user/evalar4/state/tests/test_noon.cpp
 
 CMakeFiles/state_tests.dir/tests/test_noon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/state_tests.dir/tests/test_noon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/evalar4/rk/state/tests/test_noon.cpp > CMakeFiles/state_tests.dir/tests/test_noon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/evalar4/state/tests/test_noon.cpp > CMakeFiles/state_tests.dir/tests/test_noon.cpp.i
 
 CMakeFiles/state_tests.dir/tests/test_noon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/state_tests.dir/tests/test_noon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/evalar4/rk/state/tests/test_noon.cpp -o CMakeFiles/state_tests.dir/tests/test_noon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/evalar4/state/tests/test_noon.cpp -o CMakeFiles/state_tests.dir/tests/test_noon.cpp.s
 
 CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.o: CMakeFiles/state_tests.dir/flags.make
-CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.o: /home/user/evalar4/rk/state/tests/test_afternoon.cpp
+CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.o: /home/user/evalar4/state/tests/test_afternoon.cpp
 CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.o: CMakeFiles/state_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/evalar4/rk/state/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.o -MF CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.o.d -o CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.o -c /home/user/evalar4/rk/state/tests/test_afternoon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/user/evalar4/state/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.o -MF CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.o.d -o CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.o -c /home/user/evalar4/state/tests/test_afternoon.cpp
 
 CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/evalar4/rk/state/tests/test_afternoon.cpp > CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/evalar4/state/tests/test_afternoon.cpp > CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.i
 
 CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/evalar4/rk/state/tests/test_afternoon.cpp -o CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/evalar4/state/tests/test_afternoon.cpp -o CMakeFiles/state_tests.dir/tests/test_afternoon.cpp.s
 
 # Object files for target state_tests
 state_tests_OBJECTS = \
@@ -144,7 +144,7 @@ bin/state_tests: lib/libstate.a
 bin/state_tests: /usr/lib/x86_64-linux-gnu/libgtest_main.a
 bin/state_tests: /usr/lib/x86_64-linux-gnu/libgtest.a
 bin/state_tests: CMakeFiles/state_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/user/evalar4/rk/state/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bin/state_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/user/evalar4/state/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bin/state_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/state_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +156,6 @@ CMakeFiles/state_tests.dir/clean:
 .PHONY : CMakeFiles/state_tests.dir/clean
 
 CMakeFiles/state_tests.dir/depend:
-	cd /home/user/evalar4/rk/state/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/evalar4/rk/state /home/user/evalar4/rk/state /home/user/evalar4/rk/state/build /home/user/evalar4/rk/state/build /home/user/evalar4/rk/state/build/CMakeFiles/state_tests.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/user/evalar4/state/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/evalar4/state /home/user/evalar4/state /home/user/evalar4/state/build /home/user/evalar4/state/build /home/user/evalar4/state/build/CMakeFiles/state_tests.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/state_tests.dir/depend
 
