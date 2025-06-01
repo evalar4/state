@@ -1,0 +1,53 @@
+name: CI/CD Pipeline
+
+on: [push, pull_request]
+
+jobs:
+  build-test-package:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          build-essential \
+          cmake \
+          libgtest-dev \
+          googletest \
+          google-mock \
+          debhelper \
+          dh-make
+
+    - name: Build and Test
+      run: |
+        mkdir build && cd build
+        cmake -DBUILD_TESTS=ON ..
+        make
+        ctest --output-on-failure
+
+    - name: Create DEB package
+      run: |
+        mkdir -p pkg/usr/{bin,lib} pkg/DEBIAN
+        cp build/bin/state_* pkg/usr/bin/
+        cp build/lib/libstate.a pkg/usr/lib/
+        
+        cat > pkg/DEBIAN/control <<EOF
+        Package: state
+        Version: 1.0
+        Section: utils
+        Priority: optional
+        Architecture: amd64
+        Maintainer: Your Name <your.email@example.com>
+        Description: State implementation
+        EOF
+        
+        dpkg-deb --build pkg state_1.0_amd64.deb
+        mkdir artifacts && mv *.deb artifacts/
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: state-package
+        path: build/artifacts/*.deb

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/state_program.dir/src/main.cpp.o -o bin/state_program  lib/libstate.a 

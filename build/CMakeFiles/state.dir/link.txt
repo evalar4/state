@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libstate.a CMakeFiles/state.dir/src/Work.cpp.o CMakeFiles/state.dir/src/ForenoonState.cpp.o CMakeFiles/state.dir/src/NoonState.cpp.o CMakeFiles/state.dir/src/AfternoonState.cpp.o
+/usr/bin/ranlib lib/libstate.a
